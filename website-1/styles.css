@@ -1,0 +1,101 @@
+ /* Reset some default browser styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000000; /* Set style for all sides (optional) */
+    border-top: none; /* Remove top border */
+    border-right: none; /* Remove right border */
+  }
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.mode {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#benefits,
+#importance {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.camera-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
